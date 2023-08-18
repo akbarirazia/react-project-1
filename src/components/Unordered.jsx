@@ -9,8 +9,8 @@ function Unordered(props) {
       </h3>
 
       <br />
-      {skills.map((skill) => (
-        <li>{skill}</li>
+      {skills.map((skill, index) => (
+        <li key={index}>{skill}</li>
       ))}
     </ul>
   )

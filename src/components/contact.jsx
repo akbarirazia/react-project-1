@@ -9,7 +9,7 @@ function Contact() {
       <br />
       <div className="col-lg-4 d-flex flex-column  rounded col-sm-6">
         <div className="mb-3">
-          <label for="" className="form-label">
+          <label htmlFor="" className="form-label">
             Name
           </label>
           <input
@@ -22,7 +22,7 @@ function Contact() {
           />
         </div>
         <div className="mb-3 ">
-          <label for="" class="form-label">
+          <label htmlFor="" className="form-label">
             Email
           </label>
           <input
@@ -35,7 +35,7 @@ function Contact() {
           />
         </div>
         <div className="mb-3">
-          <label for="" className="form-label">
+          <label htmlFor="" className="form-label">
             Message
           </label>
           <textarea
