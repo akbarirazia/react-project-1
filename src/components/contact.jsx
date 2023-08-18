@@ -8,38 +8,38 @@ function Contact() {
       </h1>
       <br />
       <div className="col-lg-4 d-flex flex-column  rounded col-sm-6">
-        <div class="mb-3">
-          <label for="" class="form-label">
+        <div className="mb-3">
+          <label for="" className="form-label">
             Name
           </label>
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             name=""
             id=""
             aria-describedby="helpId"
             placeholder="Razia"
           />
         </div>
-        <div class="mb-3 ">
+        <div className="mb-3 ">
           <label for="" class="form-label">
             Email
           </label>
           <input
             type="email"
-            class="form-control "
+            className="form-control "
             name=""
             id=""
             aria-describedby="emailHelpId"
             placeholder="abc@mail.com"
           />
         </div>
-        <div class="mb-3">
-          <label for="" class="form-label">
+        <div className="mb-3">
+          <label for="" className="form-label">
             Message
           </label>
           <textarea
-            class="form-control"
+            className="form-control"
             name=""
             id=""
             rows="3"
@@ -47,7 +47,7 @@ function Contact() {
           ></textarea>
         </div>
 
-        <button type="submit" class="btn btn-warning text-white">
+        <button type="submit" className="btn btn-warning text-white">
           Submit
         </button>
       </div>
