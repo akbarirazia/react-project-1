@@ -5,9 +5,9 @@ import Contact from "./components/contact"
 function App() {
   return (
     <>
-      <Intro></Intro>
+      <Intro />
       <Skills />
-      <Contact></Contact>
+      <Contact />
     </>
   )
 }
